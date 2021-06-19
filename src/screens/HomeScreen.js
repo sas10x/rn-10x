@@ -18,6 +18,10 @@ const HomeScreen = (props) => {
       title="Go to Image Screen"
       onPress={() => props.navigation.navigate('ImageScreen')} 
       />
+      <Button 
+      title="Go to Counter Screen"
+      onPress={() => props.navigation.navigate('CounterScreen')} 
+      />
     </View>
   );
 };
